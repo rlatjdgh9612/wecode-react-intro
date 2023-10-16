@@ -1,0 +1,264 @@
+.signup {
+  width: 100%;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .main_frame {
+    display: flex;
+    flex-direction: column;
+
+    position: relative;
+    left: -205px;
+  }
+  .back_button_image {
+    width: 20px;
+    height: 20px;
+
+    position: relative;
+    top: -40px;
+    left: -5px;
+  }
+  .back_button:hover {
+    cursor: pointer;
+  }
+  .new_member_font {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .back_button {
+    border: none;
+    background: none;
+    font-size: 17px;
+
+    padding-top: -5px;
+    padding-left: 25px;
+
+    margin-bottom: 18px;
+  }
+
+  .information_frame {
+    display: flex;
+    flex-direction: row;
+
+    margin-bottom: 15px;
+
+    position: relative;
+    bottom: 13px;
+  }
+  .info_text {
+    font-size: 13px;
+
+    position: relative;
+    left: -195px;
+  }
+  .required_text {
+    font-size: 11px;
+    color: red;
+
+    position: relative;
+    right: -195px;
+    bottom: -3px;
+  }
+
+  .information_input_frame {
+    display: flex;
+    flex-direction: column;
+
+    position: relative;
+    bottom: 30px;
+  }
+  .mail_input {
+    width: 455px;
+    padding: 14px;
+
+    margin-bottom: 5px;
+
+    border: 1px solid #e3e3e3;
+    border-radius: 5px;
+  }
+  .mail_input::placeholder {
+    color: #c4c4c4;
+  }
+  .password_input {
+    width: 455px;
+    padding: 14px;
+
+    margin-bottom: 5px;
+
+    border: 1px solid #e3e3e3;
+    border-radius: 5px;
+  }
+  .password_input::placeholder {
+    color: #c4c4c4;
+  }
+  .password_confirmation_input {
+    width: 455px;
+    padding: 14px;
+
+    border: 1px solid #e3e3e3;
+    border-radius: 5px;
+  }
+  .password_confirmation_input::placeholder {
+    color: #c4c4c4;
+  }
+
+  .nickname_frame {
+    display: flex;
+    flex-direction: row;
+
+    position: relative;
+    top: 3px;
+  }
+  .nickname_text {
+    font-size: 13px;
+
+    position: relative;
+    left: -160px;
+  }
+  .selected_text01 {
+    font-size: 11px;
+    color: gray;
+
+    position: relative;
+    right: -160px;
+  }
+
+  .nickname_input {
+    width: 455px;
+    padding: 14px;
+
+    border: 1px solid #e3e3e3;
+    border-radius: 5px;
+  }
+  .nickname_input::placeholder {
+    color: #c4c4c4;
+  }
+
+  .phone_number_frame {
+    display: flex;
+    justify-content: space-between;
+
+    position: relative;
+    top: 5px;
+  }
+  .phonenumber_text {
+    font-size: 13px;
+
+    position: relative;
+    left: -195px;
+  }
+  .selected_text02 {
+    font-size: 11px;
+    color: gray;
+
+    position: relative;
+    right: -197px;
+    top: 3px;
+  }
+  .phonenumber_select_frame {
+    display: flex;
+    justify-content: space-between;
+  }
+  .phonenumber_select {
+    width: 120px;
+    padding: 14px;
+    color: #c4c4c4;
+
+    border: 1px solid #e3e3e3;
+    border-radius: 5px;
+  }
+  .phonenumber {
+    width: 328px;
+    padding: 14px;
+    margin-left: 7px;
+    border: 1px solid #e3e3e3;
+    border-radius: 5px;
+  }
+  .phonenumber::placeholder {
+    color: #c4c4c4;
+  }
+
+  .birthday_frame {
+    display: flex;
+    justify-content: space-between;
+
+    position: relative;
+    top: 5px;
+  }
+  .birthday_text {
+    font-size: 13px;
+
+    position: relative;
+    left: -207px;
+  }
+  .selected_text03 {
+    font-size: 11px;
+    color: gray;
+
+    position: relative;
+    right: -209px;
+    bottom: -3px;
+  }
+
+  .birthday_select_frame {
+    display: flex;
+    justify-content: flex-start;
+  }
+  .birthday_year_select {
+    width: 120px;
+    padding: 14px;
+
+    border: 1px solid #e3e3e3;
+    border-radius: 5px;
+
+    color: #c4c4c4;
+  }
+  .birthday_month_select {
+    width: 176px;
+    padding: 14px;
+
+    margin-left: 7px;
+
+    border: 1px solid #e3e3e3;
+    border-radius: 5px;
+
+    color: #c4c4c4;
+  }
+
+  .birthday_day_select {
+    width: 176px;
+    padding: 14px;
+
+    margin-left: 7px;
+
+    border: 1px solid #e3e3e3;
+    border-radius: 5px;
+
+    color: #c4c4c4;
+  }
+  .new_member_button_frame {
+    display: flex;
+    justify-content: center;
+
+    margin-top: 60px;
+  }
+  .member_button {
+    width: 480px;
+    padding: 15px;
+
+    border: none;
+    border-radius: 5px;
+
+    color: white;
+    background-color: #2c61f2;
+    font-weight: bold;
+  }
+  .member_button:hover {
+    cursor: pointer;
+    background-color: #4a98f7;
+  }
+}
