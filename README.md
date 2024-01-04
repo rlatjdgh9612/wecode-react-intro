@@ -1,3 +1,6 @@
+# 이 프로젝트는 React Test용 입니다.
+- 해당 내용은 React 실습을 위한 Test용으로 실무 프로젝트가 아닙니다.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
